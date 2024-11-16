@@ -7,8 +7,8 @@ import { TECarousel, TECarouselItem } from "tw-elements-react";
 export default function Car() {
   return (
     <>
-      <div className="max-w-full mx-auto p-4 ">
-        <div className="max-h-[500px] relative">
+      <div className="max-w-full mx-auto p-4">
+        <div className="max-h-[500px] mt-24 relative">
           <TECarousel showControls showIndicators ride="carousel">
             <div className="relative w-full overflow-hidden after:clear-both after:block after:content-['']">
               <TECarouselItem
